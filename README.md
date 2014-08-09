@@ -19,6 +19,8 @@ You may have an error like java.lang.OutOfMemoryError, so you have to increase y
 select it, click the Arguments tab then add:
 -Xms512M -Xmx2048M to the VM Arguments section
 
+source : http://stackoverflow.com/questions/8600972/increasing-heap-space-in-eclipse-java-lang-outofmemoryerror
+
 project credits : 
 - Alper Baskan
 - Vijay Sekar
