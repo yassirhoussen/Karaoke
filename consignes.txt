@@ -1,0 +1,20 @@
+﻿Pour les fichier .txt contenant les paroles de chanson,
+il faut que:
+- les sauts de lignes soient supprimés.
+
+- au lieu d'écrire "2x", par exemple, à la fin d'un refrain,
+ celui doit être écrit une deuxième fois en dessous.
+
+- après le dernier vers, à la ligne, soit ajoutée la chaine de caractère "-----".
+
+
+Au moment de l'importation du projet dans eclipse:
+
+Eclipse limite la quantité de mémoire disponible 
+et cela peut entraîner des erreurs à l’exécution. 
+Une exception en rapport avec le heap space est alors levée.
+ Pour contourner le problème, il faut ajouter un argument :
+ Run -> Run... -> Onglet “Arguments” -> VM arguments -> ajouter “-Xmx512M” (sans les guillemets).
+
+
+Merci de respecter ces règles pour le bon fonctionnement du programme.
